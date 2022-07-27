@@ -1,0 +1,67 @@
+#topbar{
+    background-color: #878787;
+    height:40px;
+    color:white;
+}
+
+@media only screen and (max-width: 900px) {
+    .kl {
+        display:none;
+        }
+    .logo{
+        max-width: 300px;
+    }
+    .foot-bg{
+        height: auto !important;
+    }
+}
+
+
+.notfctn{
+    background: #323539;
+}
+
+.kvm-bg-img{
+    height: auto;
+    background-image: url(../images/kvm-schools-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.school-logo{
+    height: 100px !important;
+}
+.about-bg-img{
+    background-image: url(../images/we-are-slider.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.abot-contnt h2{
+    color: #76101b;
+    display: block;
+    font-family: 'Dancing Script',cursive;
+    border-bottom: 2px solid #76101b;
+    font-size: 60px;
+}
+
+.gllry-bg{
+    background-image: url(../images/photo-gallery-bg-01.jpg);
+    height: auto;
+}
+
+.foot-bg{
+    background-image: url(../images/footer-bg.jpg);
+    height: 400px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+}
+.use{
+    border-bottom: 2px solid   #fff887;
+    width: fit-content;
+}
